@@ -1,5 +1,3 @@
-clear
-neofetch
 
 # ~/.bashrc
 alias kex='vncserver-start'
@@ -20,6 +18,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-PS1='\[\e[1;92m\]┌──[\[\e[0;94m\]\u㉿\h\[\e[1;92m\]]-[\[\e[0;0m\]\w\[\e[1;92m\]]
-\[\e[1;92m\]└─\[\e[0;94m\]$ \[\e[0;0m\] '
+PS1='\[\e[1;92m\]┌──[\[\e[0;91m\]\u㉿\h\[\e[1;92m\]]-[\[\e[0;0m\]\w\[\e[1;92m\]]
+\[\e[1;92m\]└─\[\e[0;94m\]# \[\e[0;0m\] '
 # User specific aliases and functions
