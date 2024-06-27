@@ -9,17 +9,24 @@ install arch linux xfce for android distro
 ```sh
 pkg install wget ; wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/blob/main/arch.sh ; chmod +x arch.sh ; ./arch.sh
 ```
+```sh
+#how to use it:
+1) arch
+2) bash user.sh
+3) exit
+4) re-login arch (type arch)
+5) ./xfce.sh
+
+```
 Make sure you use zero termux and also nethunter kex
 
 ## setting nethunter kex :
-1.ultravnc
-
-2.remove title 
-
-3.localhost:1 
-
-4.your password 
-
+```sh
+1) ultravnc
+2) remove title 
+3) localhost:1 
+4) your password 
+```
 ![Screenshot Aplikasi](Screenshot_2024-06-27-20-13-49-03_30a42d6a209f6598350fa5f61642e1a9.jpg)
 
 
