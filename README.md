@@ -7,8 +7,11 @@ Make sure you use zero termux and also nethunter kex
 
 # setting nethunter kex :
 1.ultravnc
+
 2.remove title 
+
 3.localhost:1 
+
 4.your password 
 
 ![Screenshot Aplikasi](Screenshot_2024-06-27-20-13-49-03_30a42d6a209f6598350fa5f61642e1a9.jpg)
