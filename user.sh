@@ -24,6 +24,7 @@ echo -e " ${GREEN}╭━━━┳━━━┳━━━┳╮╱╭╮╭╮╱�
 
 echo -e "\n${R}[${W}-${R}]${C} Installing Sudo...${W}${NC}"
 pacman -Syu -y
+pacman -S unzip
 pacman -S sudo git -y
 pacman -S wget apt-utils locales-all dialog tzdata -y
 echo -e "\n${R}[${W}-${R}]${G} Sudo Successfully Installed!${W}${NC}"
@@ -31,7 +32,6 @@ echo -e "\n${R}[${W}-${R}]${G} Sudo Successfully Installed!${W}${NC}"
 sleep 2
 
 rm -rf .bashrc
-wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/.bashrc
 
 clear
 
@@ -57,7 +57,11 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Input Username [Lo
     wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/xfce.sh
         mv -vf gui.sh /home/$user/xfce.sh
         chmod +x /home/$user/xfce.sh
-        
+        rm -rf /home/$user/.bashrc
+    wget https://github.com/PATRIX-CYBERGHOST01/Arch-xfce/raw/main/bashrc.zip
+        unzip bashrc.zip
+        mv -vf gui.sh /home/$user/.bashrc
+    wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/.bashrc
         clear
         
     echo
