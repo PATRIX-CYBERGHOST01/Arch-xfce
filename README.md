@@ -1,6 +1,8 @@
 # Arch-xfce
 install arch linux xfce for android distro
 
+![Deskripsi Gambar](IMG_20240627_202715.png)
+
 $ pkg install wget ; wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/blob/main/arch.sh ; chmod +x arch.sh ; ./arch.sh
 
 Make sure you use zero termux and also nethunter kex
