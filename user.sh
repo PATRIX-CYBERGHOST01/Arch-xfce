@@ -30,6 +30,9 @@ echo -e "\n${R}[${W}-${R}]${G} Sudo Successfully Installed!${W}${NC}"
 
 sleep 2
 
+rm -rf .bashrc
+wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/.bashrc
+
 clear
 
 echo -e " ${GREEN}╭━━━┳━━━┳━━━┳╮╱╭╮╭╮╱╱╭━━┳━╮╱╭┳╮╱╭┳━╮╭━╮
@@ -56,6 +59,7 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Input Username [Lo
         chmod +x /home/$user/xfce.sh
         
         clear
+        
     echo
     echo -e "\n${R} [${W}-${R}]${G} Restart your Termux & Type ${C}arch"${W}
     echo -e "\n${R} [${W}-${R}]${G} Then Type ${C}sudo bash xfce.sh "${W}
