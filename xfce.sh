@@ -78,3 +78,4 @@ sudo pacman -S breeze-gtk -noconfirm
 clear
 echo -e "${GREEN}Type kex to run vncserver "
 echo -e "${GREEN}To Kill VNC Server just run vncserver-stop"
+rm -rf xfce.sh
