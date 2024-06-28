@@ -7,7 +7,7 @@ install arch linux xfce for android distro
 
 ### Using the repo package:
 ```sh
-pkg install wget ; wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/blob/main/arch.sh ; chmod +x arch.sh ; ./arch.sh
+pkg install wget -y ; wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/arch.sh ; chmod +x arch.sh ; ./arch.sh
 ```
 ```sh
 #how to use it:
