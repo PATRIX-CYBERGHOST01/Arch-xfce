@@ -21,7 +21,7 @@ pacman -Suuyy --noconfirm
 sudo pacman -S gvfs --noconfirm
 pacman -S xfce4 xfce4-goodies sudo --noconfirm 
 pacman -S tigervnc wget --noconfirm
-pacman -S wget tar unzip sed --noconfirm
+pacman -S wget git tar unzip sed --noconfirm
 
 wget https://raw.githubusercontent.com/Techriz/AndronixOrigin/master/Pacman/Manjaro/XFCE/xstartup   -P ~/.vnc/
 wget https://raw.githubusercontent.com/Techriz/AndronixOrigin/master/Pacman/vncserver-start -P /usr/local/bin/
@@ -58,7 +58,7 @@ wget https://github.com/YehezkielAZD/D/raw/main/Breeze-Hacked.tgz
 tar -xzf Breeze-Hacked.tgz -C "/root/download/"
 tar -xvzf gtk-themes.tar.gz -C "/usr/share/themes/"
 tar -xf 01-Flat-Remix-Blue-20240201.tar.xz -C "/usr/share/icons/"
-unzip wall.zip -C "/usr/share/backgrounds/xfce/"
+unzip wall.zip -d "/usr/share/backgrounds/xfce/"
 
 
 
