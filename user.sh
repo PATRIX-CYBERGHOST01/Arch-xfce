@@ -55,12 +55,12 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Input Username [Lo
     chmod +x /data/data/com.termux/files/usr/bin/arch
     
     wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/xfce.sh
-        mv -vf gui.sh /home/$user/xfce.sh
+        mv -vf xfce.sh /home/$user/xfce.sh
         chmod +x /home/$user/xfce.sh
         rm -rf /home/$user/.bashrc
     wget https://github.com/PATRIX-CYBERGHOST01/Arch-xfce/raw/main/bashrc.zip
         unzip bashrc.zip
-        mv -vf gui.sh /home/$user/.bashrc
+        mv -vf .bashrc /home/$user/.bashrc
     wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/.bashrc
         clear
         
