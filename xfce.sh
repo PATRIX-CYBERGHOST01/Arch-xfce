@@ -17,11 +17,11 @@ echo " "
 echo "Updating the system "
 echo " "
 echo " "
-pacman -Suuyy --noconfirm
+sudo pacman -Suuyy --noconfirm
 sudo pacman -S gvfs --noconfirm
-pacman -S xfce4 xfce4-goodies sudo --noconfirm 
-pacman -S tigervnc wget --noconfirm
-pacman -S wget git tar unzip sed --noconfirm
+sudo pacman -S xfce4 xfce4-goodies sudo --noconfirm 
+sudo pacman -S tigervnc wget --noconfirm
+sudo pacman -S wget git tar unzip sed --noconfirm
 
 wget https://raw.githubusercontent.com/Techriz/AndronixOrigin/master/Pacman/Manjaro/XFCE/xstartup   -P ~/.vnc/
 wget https://raw.githubusercontent.com/Techriz/AndronixOrigin/master/Pacman/vncserver-start -P /usr/local/bin/
@@ -73,6 +73,7 @@ sudo pacman -S make base-devel cmake ninja python gtk3 --noconfirm
 make
 sudo make Install
 sudo pacman -S breeze-gtk -noconfirm
+rm -rf ~/.config/xfce4/desktop/
 
 
 clear
