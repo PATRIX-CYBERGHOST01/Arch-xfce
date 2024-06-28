@@ -25,6 +25,7 @@ echo -e " ${GREEN}╭━━━┳━━━┳━━━┳╮╱╭╮╭╮╱�
 echo -e "\n${R}[${W}-${R}]${C} Installing Sudo...${W}${NC}"
 pacman -Syu -y
 pacman -S unzip
+pacman -S neofetch
 pacman -S sudo git -y
 pacman -S wget apt-utils locales-all dialog tzdata -y
 echo -e "\n${R}[${W}-${R}]${G} Sudo Successfully Installed!${W}${NC}"
