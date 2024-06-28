@@ -60,7 +60,7 @@ CYAN='\033[1;36m'
     echo -e "${CYAN}1.${GREEN} dbus-broker-units (Khusus Android Tinggi)${NC}"
     echo -e "${CYAN}2.${GREEN} dbus-daemon-units (Khusus Android Rendah)${YELLOW}"
 echo ""
-
+wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/user.sh
 		downloader "$CURR_DIR/user.sh" "https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/blob/main/user.sh"
 		mv -f "$CURR_DIR/user.sh" "$UBUNTU_DIR/root/user.sh"
 		
