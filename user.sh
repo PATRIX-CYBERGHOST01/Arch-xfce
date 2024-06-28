@@ -68,3 +68,4 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Input Username [Lo
     echo -e "\n${R} [${W}-${R}]${G} Restart your Termux & Type ${C}arch"${W}
     echo -e "\n${R} [${W}-${R}]${G} Then Type ${C}sudo bash xfce.sh "${W}
     echo
+rm -rf user.sh
