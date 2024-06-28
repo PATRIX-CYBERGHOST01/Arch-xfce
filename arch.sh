@@ -66,7 +66,7 @@ echo ""
 		
 	chmod +x $UBUNTU_DIR/root/user.sh
 
-	echo "proot-distro login ubuntu" > $PREFIX/bin/arch
+	echo "proot-distro login archlinux" > $PREFIX/bin/arch
 	chmod +x "$PREFIX/bin/arch"
 	termux-reload-settings
 
