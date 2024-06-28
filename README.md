@@ -15,7 +15,7 @@ pkg install wget -y ; wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01
 2) bash user.sh
 3) exit
 4) re-login arch (type arch)
-5) ./xfce.sh
+5) sudo bash xfce.sh
 
 ```
 Make sure you use zero termux and also nethunter kex
