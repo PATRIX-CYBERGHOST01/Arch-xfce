@@ -36,36 +36,10 @@ echo ""
 echo -e "${YELLOW}installing arch linux... "
 sleep 2
 
-proot-distro install archlinux &>/dev/null &
+proot-distro install archlinux
 
-PID=$!
-TOTAL_STEPS=100
-STEP_DURATION=2
-
-for ((i=1; i<=TOTAL_STEPS; i++)); do
-  if ps -p $PID > /dev/null; then
-    PERCENT=$((i * 100 / TOTAL_STEPS))
-    echo -ne "loading... $PERCENT%\r"
-    sleep $STEP_DURATION
-  else
-    break
-  fi
-done
-
-if ps -p $PID > /dev/null; then
-  echo -e "\n${YELLOW} installation complete."
-else
-  echo -e "\n${RED} installation failed or already completed."
-fi
-
-cat <<EOF > ~/arch.sh
-#!/data/data/com.termux/files/usr/bin/bash
-proot-distro login archlinux
-EOF
-
-chmod +x ~/arch.sh
-mv ~/archlinux.sh $PREFIX/bin/arch
-
+echo "proot-distro login --user $user archlinux --bind /dev/null:/proc/sys/kernel/cap_last_last --shared-tmp --fix-low-ports" > /data/data/com.termux/files/usr/bin/arch
+    chmod +x /data/data/com.termux/files/usr/bin/arch
 sleep 2
 
 clear
