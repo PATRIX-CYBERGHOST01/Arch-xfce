@@ -38,7 +38,7 @@ sleep 2
 
 proot-distro install archlinux
 
-echo "proot-distro login --user $user archlinux --bind /dev/null:/proc/sys/kernel/cap_last_last --shared-tmp --fix-low-ports" > /data/data/com.termux/files/usr/bin/arch
+echo "proot-distro login archlinux " > /data/data/com.termux/files/usr/bin/arch
     chmod +x /data/data/com.termux/files/usr/bin/arch
 sleep 2
 
@@ -61,26 +61,6 @@ while true; do
     echo -e "${CYAN}1.${GREEN} dbus-broker-units (Khusus Android Tinggi)${NC}"
     echo -e "${CYAN}2.${GREEN} dbus-daemon-units (Khusus Android Rendah)${YELLOW}"
 echo ""
-    # Membaca input pengguna
-    read -p "Masukkan nomor pilihan Anda (1 atau 2): " pilihan
-
-    # Menjalankan perintah upgrade dengan pilihan yang dipilih
-    case $pilihan in
-        1)
-            echo -e "${YELLOW}Menggunakan dbus-broker-units (Khusus Android Tinggi)...${NC}"
-            proot-distro login archlinux -- pacman -Syu --noconfirm <<< "1"
-            break
-            ;;
-        2)
-            echo -e "${YELLOW}Menggunakan dbus-daemon-units (Khusus Android Rendah)...${NC}"
-            proot-distro login archlinux -- pacman -Syu --noconfirm <<< "2"
-            break
-            ;;
-        *)
-            echo -e "${YELLOW}Pilihan tidak valid. Silakan pilih 1 atau 2.${NC}"
-            sleep 2
-            ;;
-    esac
 done
 
 echo -e "${YELLOW}Upgrade Arch Linux selesai.${NC}"
