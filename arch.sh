@@ -42,8 +42,6 @@ echo "proot-distro login archlinux " > /data/data/com.termux/files/usr/bin/arch
     chmod +x /data/data/com.termux/files/usr/bin/arch
 sleep 2
 
-clear
-#!/bin/bash
 
 # Definisikan warna
 YELLOW='\033[1;33m'
@@ -60,9 +58,6 @@ CYAN='\033[1;36m'
     echo -e "${CYAN}1.${GREEN} dbus-broker-units (Khusus Android Tinggi)${NC}"
     echo -e "${CYAN}2.${GREEN} dbus-daemon-units (Khusus Android Rendah)${YELLOW}"
 echo ""
-done
-
-echo -e "${YELLOW}Upgrade Arch Linux selesai.${NC}"
 
 		downloader "$CURR_DIR/user.sh" "https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/blob/main/user.sh"
 		mv -f "$CURR_DIR/user.sh" "$UBUNTU_DIR/root/user.sh"
