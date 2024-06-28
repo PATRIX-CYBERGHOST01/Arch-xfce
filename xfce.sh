@@ -68,7 +68,7 @@ wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Pacman/
 sleep 2
 git clone https://gitlab.xfce.org/apps/xfce4-panel-profiles.git
 cd xfce4-panel-profiles
-sudo pacman -S base-devel cmake ninja python gtk3 --noconfirm
+sudo pacman -S make base-devel cmake ninja python gtk3 --noconfirm
 ./configure
 make
 sudo make Install
