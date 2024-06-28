@@ -50,7 +50,6 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 CYAN='\033[1;36m'
 
-while true; do
     clear
     echo -e "${YELLOW}Upgrading Arch Linux...${NC}"
     sleep 2
