@@ -57,8 +57,8 @@ CYAN='\033[1;36m'
     # Menampilkan pilihan kepada pengguna
     echo -e "${CYAN}Pilih opsi untuk instalasi:${NC}"
     echo ""
-    echo -e "${CYAN}1.${GREEN} dbus-broker-units (Khusus Android Tinggi)${NC}"
-    echo -e "${CYAN}2.${GREEN} dbus-daemon-units (Khusus Android Rendah)${YELLOW}"
+    echo -e "${CYAN}1.${GREEN} dbus-broker-units (Khusus Android Tinggi) sedang eror!!${NC}"
+    echo -e "${CYAN}2.${GREEN} dbus-daemon-units (Khusus Android Rendah) rekomendasi${YELLOW}"
 echo ""
 proot-distro login archlinux -- pacman -Syu 
 wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01/Arch-xfce/main/user.sh
