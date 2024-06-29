@@ -16,6 +16,11 @@ pkg install wget -y ; wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01
 3) exit
 4) re-login arch (type arch)
 5) sudo bash xfce.sh
+#fix panel profil
+1) sudo pacman -S python-psutil
+2) cd xfce4-panel-profiles
+3) make
+4) make install
 
 ```
 Make sure you use zero termux and also nethunter kex
