@@ -14,8 +14,9 @@ pkg install wget -y ; wget https://raw.githubusercontent.com/PATRIX-CYBERGHOST01
 1) arch
 2) bash user.sh
 3) exit
-4) re-login arch (type arch)
+4) re-login arch / restart and login (type arch)
 5) sudo bash xfce.sh
+
 #fix panel profil
 1) sudo pacman -S python-psutil
 2) cd xfce4-panel-profiles
