@@ -49,8 +49,8 @@ proot-distro install archlinux
 echo 'pulseaudio --start \
     --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" \
     --exit-idle-time=-1
-proot-distro login archlinux ' > /data/data/com.termux/files/usr/bin/arch.sh
-    chmod +x /data/data/com.termux/files/usr/bin/arch.sh
+proot-distro login archlinux ' > /data/data/com.termux/files/usr/bin/arch
+    chmod +x /data/data/com.termux/files/usr/bin/arch
     
 	
 sleep 2
