@@ -58,8 +58,8 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Input Username [Lo
     --exit-idle-time=-1
     proot-distro login --user $user archlinux --bind
     /dev/null:/proc/sys/kernel/cap_last_last --shared-tmp --fix-low-ports' >
-    /data/data/com.termux/files/usr/bin/arch
-    chmod +x /data/data/com.termux/files/usr/bin/arch
+    /data/data/com.termux/files/usr/bin/arch.sh
+    chmod +x /data/data/com.termux/files/usr/bin/arch.sh
     echo "export USER=$user
 export HOME=/home/$user
 
