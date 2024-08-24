@@ -53,10 +53,10 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Input Username [Lo
     usermod -aG sudo ${user}
     echo "${user}:${pass}" | chpasswd
     echo "$user ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
-    echo "proot-distro login --user $user archlinux --bind
-    /dev/null:/proc/sys/kernel/cap_last_last --shared-tmp --fix-low-ports" >
-    /data/data/com.termux/files/usr/bin/arch
-    chmod +x /data/data/com.termux/files/usr/bin/arch
+    echo "proot-distro login --user $user archlinux --bind /dev/null:/proc/sys/kernel/cap_last_last --shared-tmp --fix-low-ports" > /data/data/com.termux/files/usr/bin/arch
+    #chmod +x /data/data/com.termux/files/usr/bin/arch
+
+
     echo "export USER=$user
 export HOME=/home/$user
 
