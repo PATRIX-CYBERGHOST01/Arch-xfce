@@ -1,3 +1,8 @@
+# new update 
+fix sound 
+fix eror install panel profil 
+fix eror vncserver desktop 
+
 # Arch-xfce
 install arch linux xfce for android distro
 
