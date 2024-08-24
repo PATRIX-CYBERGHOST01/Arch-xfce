@@ -35,7 +35,7 @@ sleep 2
 rm -rf .bashrc
 
 clear
-echo -e '${BLUE}    .aMMMb  dMMMMb  .aMMMb  dMP dMP         dMP     dMP dMMMMb  dMP dM>
+echo -e '    .aMMMb  dMMMMb  .aMMMb  dMP dMP         dMP     dMP dMMMMb  dMP dM>
    dMP"dMP dMP.dMP dMP"VMP dMP dMP         dMP     amr dMP dMP dMP dMP dMK.dMP
   dMMMMMP dMMMMK" dMP     dMMMMMP         dMP     dMP dMP dMP dMP dMP .dMMMK"
  dMP dMP dMP"AMF dMP.aMP dMP dMP         dMP     dMP dMP dMP dMP.aMP dMP"AMF
