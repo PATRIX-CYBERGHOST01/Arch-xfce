@@ -36,7 +36,7 @@ pkg update -y
 pkg install proot proot-distro -y
 pkg install root-repo x11-repo -y
 echo ""
-echo -e " ${YELLOW} [-] ${GREEN}alling pulseaudio..."
+echo -e " ${YELLOW} [-] ${GREEN}installing pulseaudio..."
 sleep 2
 pkg install proot pulseaudio -y
 termux-setup-storage
