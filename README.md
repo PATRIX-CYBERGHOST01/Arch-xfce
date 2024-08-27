@@ -1,8 +1,8 @@
 # new update 
 ---
 - [x] fix sound 
-- [x]fix eror install panel profil 
-- [x]fix eror vncserver desktop 
+- [x] fix eror install panel profil 
+- [x] fix eror vncserver desktop 
 ---
 
 # Arch-xfce
