@@ -71,6 +71,7 @@ git clone https://gitlab.xfce.org/apps/xfce4-panel-profiles.git
 sudo pacman -S make base-devel cmake ninja python gtk3 --noconfirm
 sudo pacman -S python-psutil
 cd xfce4-panel-profiles
+bash configure
 make
 make install
 sudo pacman -S breeze-gtk -noconfirm
