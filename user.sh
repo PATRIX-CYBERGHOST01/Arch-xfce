@@ -88,5 +88,5 @@ rm -rf /tmp/.X11-unix/X1" > /usr/local/bin/vncserver-stop
     echo
     echo -e "\n${R} [${W}-${R}]${G} Restart your Termux & Type ${C}arch"${W}
     echo -e "\n${R} [${W}-${R}]${G} Then Type ${C}sudo bash xfce.sh / sudo ./xfce.sh "${W}
-    echo
+    echo -e "\n${R} [-] BY MR.PATRIX (DON'T COPY MY SCRIPY)
 rm -rf user.sh
